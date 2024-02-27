@@ -1,2 +1,3 @@
 # Shop-EchoMarket
-Web Development Project
+Web Development Project 
+Using React, Springboot & Vite
