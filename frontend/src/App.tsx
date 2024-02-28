@@ -1,6 +1,4 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-// import Men from "./components/Men.tsx";
-// import Women from "./components/Women";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -29,9 +27,6 @@ function App() {
         <Route path='/' element={<Navigate to='/home' replace />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/home' element={<Home />} />
-
-        {/*<Route path='/products/men' element={<Men />} />*/}
-        {/*<Route path='/products/women' element={<Women />} />*/}
 
         <Route
           path='admin/add-to-cart'
@@ -81,8 +76,10 @@ function App() {
         />
         <Route path='*' element={<ErrorPage message='Page Not Found' />} />
       </Routes>
+
     </>
   );
 }
 
 export default App;
+

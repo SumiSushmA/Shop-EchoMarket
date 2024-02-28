@@ -26,15 +26,8 @@ function Navigation() {
       <nav className='hidden md:flex'>
         <ul className='flex items-center gap-4 text-xl'>
           <li className='cursor-pointer'>
-            <NavLink to='/products/all'> All Products</NavLink>
+            <NavLink to='/products/all'> View the trendy products</NavLink>
           </li>
-          <li className='cursor-pointer'>
-            <NavLink to='/products/men'> Men </NavLink>
-          </li>
-          <li className='cursor-pointer'>
-            <NavLink to='/products/women'>Women</NavLink>
-          </li>
-          <li className='cursor-pointer'>Sale</li>
         </ul>
       </nav>
       <nav
@@ -46,13 +39,6 @@ function Navigation() {
           <li className='cursor-pointer'>
             <NavLink to='/products/all'> All Products</NavLink>
           </li>
-          <li className='cursor-pointer'>
-            <NavLink to='/products/men'> Men </NavLink>
-          </li>
-          <li className='cursor-pointer'>
-            <NavLink to='/products/women'>Women</NavLink>
-          </li>
-          <li className='cursor-pointer'>Sale</li>
         </ul>
       </nav>
 

@@ -25,7 +25,7 @@ function MainHero() {
           <div className='w-8 h-8 rounded-full bg-purple-400 -ml-2'></div>
         </div>
         <p className='md:text-2xl mt-4 w-[35ch] lg:w-auto'>
-          Fashion is a form of self-expression and autonomy
+          Empowering Your Retail Experience, One Click at a Time!
         </p>
         <div className='mt-6 flex gap-3'>
           <button className='text-white font-semibold bg-orange-400 px-4 py-2 text-xl'>

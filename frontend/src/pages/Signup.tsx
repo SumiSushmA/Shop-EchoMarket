@@ -33,7 +33,7 @@ function Signup() {
   return (
     <main>
       <h1 className='uppercase font-bubble font-black text-center pt-24 text-4xl'>
-        clothy.
+        Shop-EchoMarket.
       </h1>
       <form
         method='post'
@@ -73,7 +73,7 @@ function Signup() {
           />
         </div>
         <button className='uppercase bg-black font-semibold text-white px-8 py-3'>
-          Sign up
+          Register
         </button>
       </form>
       <div className='text-center mt-8'>

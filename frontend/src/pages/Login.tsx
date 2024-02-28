@@ -34,7 +34,7 @@ function Login() {
   return (
     <main className=''>
       <h1 className='uppercase font-bubble font-black text-center pt-24 text-4xl'>
-        clothy.
+        Shop-EchoMarket.
       </h1>
       <form
         method='post'
