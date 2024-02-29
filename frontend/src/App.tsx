@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ErrorPage from "./pages/ErrorPage";
+
 // import TestPage from "./pages/TestPage";
 import AddToCart from "./pages/AddToCart";
 import AllProducts from "./pages/AllProducts";
@@ -76,6 +77,7 @@ function App() {
         />
         <Route path='*' element={<ErrorPage message='Page Not Found' />} />
       </Routes>
+
 
     </>
   );
